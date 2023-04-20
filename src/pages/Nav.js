@@ -17,11 +17,11 @@ const Nav = () => {
           </div>
           <div className="hidden md:flex lg:flex">
             <ul className="flex items-center space-x-2">
-              <li className="px-3 py-2 hover:text-[#e8505b]"><a href="/">Home</a></li>
-              <li className="px-3 py-2 hover:text-[#e8505b]"><a href="/about"> Services</a></li>
-              <li className="px-3 py-2 hover:text-[#e8505b]"><a href="/services">Pricing</a></li>
-              <li className="px-3 py-2 hover:text-[#e8505b]"><a href="/blog">About</a></li>
-              <li className="px-3 py-2 hover:text-[#e8505b]"><a href="/contact">Contact</a></li>
+              <li className="px-3 py-2 hover:text-[#e8505b]"><a href="#home">Home</a></li>
+              <li className="px-3 py-2 hover:text-[#e8505b]"><a href="#services"> Services</a></li>
+              <li className="px-3 py-2 hover:text-[#e8505b]"><a href="#about">About</a></li>
+              <li className="px-3 py-2 hover:text-[#e8505b]"><a href="#pricing">Pricing</a></li>
+              <li className="px-3 py-2 hover:text-[#e8505b]"><a href="#contact">Contact</a></li>
               <li className="p-2 text-white rounded-full bg-[#e8505b] hover:text-[#e8505b] hover:bg-white"><a href="/contact"><FaFacebookF/></a></li>
               <li className="p-2 text-white rounded-full bg-[#e8505b] hover:text-[#e8505b] hover:bg-white"><a href="/contact"><FaTwitter/></a></li>
             </ul>
@@ -41,11 +41,11 @@ const Nav = () => {
           {navIsShown && (
             <div className='absolute z-10 top-12 left-0 w-full text-black'>
               <ul className='mb-2 bg-white p-2 mx-10'>
-                <li className="px-3 py-2 hover:text-[#e8505b] border-b border-t border-slate-300"><a href="/">Home</a></li>
-                <li className="px-3 py-2 hover:text-[#e8505b] border-b border-slate-300"><a href="/about">Services</a></li>
-                <li className="px-3 py-2 hover:text-[#e8505b] border-b border-slate-300"><a href="/services">Pricing</a></li>
-                <li className="px-3 py-2 hover:text-[#e8505b] border-b border-slate-300"><a href="/blog">About</a></li>
-                <li className="px-3 py-2 hover:text-[#e8505b]"><a href="/contact">Contact</a></li>
+                <li className="px-3 py-2 hover:text-[#e8505b] border-b border-t border-slate-300"><a href="#home">Home</a></li>
+                <li className="px-3 py-2 hover:text-[#e8505b] border-b border-slate-300"><a href="#services">Services</a></li>
+                <li className="px-3 py-2 hover:text-[#e8505b] border-b border-slate-300"><a href="#about">Pricing</a></li>
+                <li className="px-3 py-2 hover:text-[#e8505b] border-b border-slate-300"><a href="#pricing">Pricing</a></li>
+                <li className="px-3 py-2 hover:text-[#e8505b]"><a href="#contact">Contact</a></li>
               </ul>
             </div>
           )}

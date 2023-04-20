@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <main>
       {/* hero */}
-      <section>
+      <section id="home">
         <div className="container mx-auto p-4">
           <div className="flex flex-wrap justify-center text-center">
             <div className="mt-10">
@@ -130,7 +130,7 @@ const Home = () => {
         </div>
       </section>
 
-      <section>
+      <section id="services">
         <div className="container mx-auto p-4">
           <br />
           <div className="text-center my-10 space-y-2">
@@ -188,7 +188,7 @@ const Home = () => {
         </div>
       </section>
 
-      <section>
+      <section id="about">
         <div className="container mx-auto p-4 my-10">
           <div className="flex flex-wrap justify-evenly items-center">
             <div>
@@ -233,7 +233,7 @@ const Home = () => {
         </div>
       </section>
 
-      <section>
+      <section id="pricing">
         <div className="container mx-auto p-4 my-10">
           <div className="flex flex-wrap justify-evenly items-center">
             <div>
@@ -279,7 +279,7 @@ const Home = () => {
         </div>
       </section>
 
-      <section>
+      <section id="contact">
         <div className="container mx-auto p-4">
           <div className="flex justify-center my-10">
             <div className="text-center space-y-4">
