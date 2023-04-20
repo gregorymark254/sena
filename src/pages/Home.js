@@ -252,6 +252,58 @@ const Home = () => {
           </div>
         </div>
       </section>
+
+      <section>
+        <div className="container mx-auto p-4">
+          <div className="text-center space-y-3 p-4 my-8">
+            <h3><b>Our Process Defines Us</b></h3>
+            <p>We serve small and medium sized companies in all tech related industries with high <br /> quality business growth services based on many years of software development</p>
+          </div>
+          <div className="flex justify-center">
+            <img width={1000} src="https://htmlrev.com/preview/sena/images/video-preview.svg" alt="preview" />
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div className="bg-[#f5f5f5] my-20 py-20">
+          <div className="container mx-auto p-4">
+            <div className="flex justify-center">
+              <div className="text-center">
+                <h2><b>Our pricing policy is designed to cover budgets for all <br />companies without sacrificing quality</b></h2>
+                <br />
+                <button className="px-6 py-2 text-white bg-[#e8505b] rounded-full hover:border hover:border-[#e8505b] hover:bg-white hover:text-[#e8505b]">See Prices</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div className="container mx-auto p-4">
+          <div className="flex justify-center my-10">
+            <div className="text-center space-y-4">
+              <h2><b>Subscribe To Stay Updated</b></h2>
+              <p>We serve small and medium sized companies in all tech related industries with high <br /> quality business growth services based on many years of software development</p>
+
+              <br />
+              <div className="flex items-center justify-center">
+                <label htmlFor="">
+                  <input 
+                    type="email" 
+                    required
+                    placeholder="Email address"
+                    className="px-6 py-3 border border-slate-400 focus:outline-none focus:border-[#e8505b] rounded-l-full"
+                  />
+                </label>
+                <div>
+                  <button className="px-6 py-3.5 text-white bg-[#e8505b] rounded-r-full hover:border hover:border-[#e8505b] hover:bg-white hover:text-[#e8505b]">Subscribe</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
   )
 }
