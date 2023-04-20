@@ -16,7 +16,7 @@ const Home = () => {
                 <h1><b>Solutions Integrator</b></h1>
                 <br />
                 <div>
-                  <button className="px-5 py-2 text-white bg-[#e8505b] rounded-full">Learn More</button>
+                  <button className="px-5 py-2 text-white bg-[#e8505b] rounded-full hover:border hover:border-[#e8505b] hover:bg-white hover:text-[#e8505b]">Learn More</button>
                 </div>
               </div>
               <div className="mt-10">
@@ -55,11 +55,26 @@ const Home = () => {
                 </div>
                 <p>Use the following form to setup a consultative call with <br /> one of our staff members in order to send you a custom<br /> offer. Fill the form and we'll call you in 24h</p>
                 <div className="space-y-2">
-                  <p className="flex items-center"><h2 className="text-[#e8505b]"><BsDot/></h2><b>No costs</b>&nbsp;from your side, the call is free of charge</p>
-                  <p className="flex items-center"><h2 className="text-[#e8505b]"><BsDot/></h2><b>No costs</b>&nbsp;from your side, the call is free of charge</p>
-                  <p className="flex items-center"><h2 className="text-[#e8505b]"><BsDot/></h2><b>No costs</b>&nbsp;from your side, the call is free of charge</p>
-                  <p className="flex items-center"><h2 className="text-[#e8505b]"><BsDot/></h2><b>No costs</b>&nbsp;from your side, the call is free of charge</p>
-                  <p className="flex items-center"><h2 className="text-[#e8505b]"><BsDot/></h2><b>No costs</b>&nbsp;from your side, the call is free of charge</p>
+                  <div className="flex items-center">
+                    <h2 className="text-[#e8505b]"><BsDot/></h2>
+                    <p><b>No costs</b> from your side, the call is free of charge</p>
+                  </div>
+                  <div className="flex items-center">
+                    <h2 className="text-[#e8505b]"><BsDot/></h2>
+                    <p><b>No costs</b> from your side, the call is free of charge</p>
+                  </div>
+                  <div className="flex items-center">
+                    <h2 className="text-[#e8505b]"><BsDot/></h2>
+                    <p><b>No costs</b> from your side, the call is free of charge</p>
+                  </div>
+                  <div className="flex items-center">
+                    <h2 className="text-[#e8505b]"><BsDot/></h2>
+                    <p><b>No costs</b> from your side, the call is free of charge</p>
+                  </div>
+                  <div className="flex items-center">
+                    <h2 className="text-[#e8505b]"><BsDot/></h2>
+                    <p><b>No costs</b> from your side, the call is free of charge</p>
+                  </div>
                 </div>
               </div>
               <div className="p-4">
@@ -106,7 +121,7 @@ const Home = () => {
                     </label>
                   </div>
                   <div className="p-4">
-                    <button className="w-full px-5 py-3 text-white bg-[#e8505b] rounded-full">Submit</button>
+                    <button className="w-full px-5 py-3 text-white bg-[#e8505b] rounded-full hover:border hover:border-[#e8505b] hover:bg-white hover:text-[#e8505b]">Submit</button>
                   </div>
                </form>
               </div>
@@ -156,8 +171,14 @@ const Home = () => {
               <h3><b>ERP Integration Service <br /> Resource Planning</b></h3>
               <p>A good ERP system is mandatory for the well being of your <br /> company. It's the backbone of your software infrastructure</p>
               <div className="space-y-2">
-                <p className="flex items-center"><h2 className="text-[#e8505b]"><BsDot/></h2><b>For startups</b>&nbsp;which have less data and operations</p>
-                <p className="flex items-center"><h2 className="text-[#e8505b]"><BsDot/></h2><b>For startups</b>&nbsp;which have less data and operations</p>
+                <div className="flex items-center">
+                  <h2 className="text-[#e8505b]"><BsDot/></h2>
+                  <p><b>For startups</b> which have less data and operations</p>
+                </div>
+                <div className="flex items-center">
+                  <h2 className="text-[#e8505b]"><BsDot/></h2>
+                  <p><b>For startups</b> which have less data and operations</p>
+                </div>
               </div>
             </div>
             <div>
@@ -179,8 +200,53 @@ const Home = () => {
               <p>It's very hard to build customer trust but once you secure it <br /> then it will be much easier to sell something to your users. Use <br />a good and proven solution to manage customers</p>
               <br />
               <div className="flex flex-wrap space-x-3">
-                <button className="px-6 py-2 text-white bg-[#e8505b] rounded-full">Terms</button>
-                <button className="px-6 py-2 border border-slate-400  rounded-full">Privacy</button>
+                <button className="px-6 py-2 text-white bg-[#e8505b] rounded-full hover:border hover:border-[#e8505b] hover:bg-white hover:text-[#e8505b]">Terms</button>
+                <button className="px-6 py-2 border border-slate-400  rounded-full hover:text-white hover:bg-neutral-700">Privacy</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div className="container mx-auto p-4 my-10">
+          <div className="flex flex-wrap justify-evenly items-center">
+            <div className="p-4 space-y-3">
+              <h1 className="text-[#e8505b]"><MdPhoneIphone/></h1>
+              <h3><b>SFA Integration Service <br /> Sales Force Automation</b></h3>
+              <p>For field sales workers there's nothing more important than a <br /> reliable interface to the company's knowledge base app</p>
+              <div className="space-y-2">
+                <div className="flex items-center">
+                  <h2 className="text-[#e8505b]"><BsDot/></h2>
+                  <p><b>For startups</b> which have less data and operations</p>
+                </div>
+                <div className="flex items-center">
+                  <h2 className="text-[#e8505b]"><BsDot/></h2>
+                  <p><b>For startups</b> which have less data and operations</p>
+                </div>
+              </div>
+            </div>
+            <div>
+              <img width={500} src="https://htmlrev.com/preview/sena/images/details-3.svg" alt="details" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div className="container mx-auto p-4 my-10">
+          <div className="flex flex-wrap justify-evenly items-center">
+            <div>
+              <img width={500} src="https://htmlrev.com/preview/sena/images/details-4.svg" alt="details" />
+            </div>
+            <div className="p-4 space-y-3">
+              <h1 className="text-[#e8505b]"><FaBoxes/></h1>
+              <h3><b>WMS Integration Service <br /> Warehouse Management</b></h3>
+              <p>An increased warehouse accuracy and efficiency can lead to <br /> tremendous savings in terms of time and money. Also your <br />customers will be much happier receiving the right orders</p>
+              <br />
+              <div className="flex flex-wrap space-x-3">
+                <button className="px-6 py-2 text-white bg-[#e8505b] rounded-full hover:border hover:border-[#e8505b] hover:bg-white hover:text-[#e8505b]">Terms</button>
+                <button className="px-6 py-2 border border-slate-400  rounded-full hover:text-white hover:bg-neutral-700">Privacy</button>
               </div>
             </div>
           </div>
