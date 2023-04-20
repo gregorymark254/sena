@@ -1,4 +1,5 @@
 import React, { useState }  from 'react'
+import { FaFacebookF,FaTwitter } from "react-icons/fa";
 
 const Nav = () => {
 
@@ -15,12 +16,14 @@ const Nav = () => {
             <img className="w-32" src="https://htmlrev.com/preview/sena/images/logo.svg" alt="Logo" />
           </div>
           <div className="hidden md:flex lg:flex">
-            <ul className="flex">
+            <ul className="flex items-center space-x-2">
               <li className="px-3 py-2 hover:text-[#e8505b]"><a href="/">Home</a></li>
               <li className="px-3 py-2 hover:text-[#e8505b]"><a href="/about"> Services</a></li>
               <li className="px-3 py-2 hover:text-[#e8505b]"><a href="/services">Pricing</a></li>
               <li className="px-3 py-2 hover:text-[#e8505b]"><a href="/blog">About</a></li>
               <li className="px-3 py-2 hover:text-[#e8505b]"><a href="/contact">Contact</a></li>
+              <li className="p-2 text-white rounded-full bg-[#e8505b] hover:text-[#e8505b] hover:bg-white"><a href="/contact"><FaFacebookF/></a></li>
+              <li className="p-2 text-white rounded-full bg-[#e8505b] hover:text-[#e8505b] hover:bg-white"><a href="/contact"><FaTwitter/></a></li>
             </ul>
           </div>
 
